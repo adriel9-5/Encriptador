@@ -1,0 +1,150 @@
+body{
+    font-family: "Inter", sans-serif;
+    background:  #F3F5FC;
+    width: 100%;
+}
+
+.titulo{
+    width: 100%;
+}
+
+.titulo h1{
+    position: relative;
+    text-align: center;
+    bottom: 40px;
+    color: #0A3871;
+}
+
+section{
+    display: inline-block;
+}
+
+textarea{
+    resize: none;
+}
+
+#campo-encriptado::placeholder{
+    color: #0A3871;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.campo-encriptar h5{
+    position: relative;
+    left: 50px;
+    color: #495057;
+    opacity: 80%;
+    line-height: 18px;
+    
+}
+
+#campo-encriptado{
+    position: relative;
+    left: 20px;
+    background: #F3F5FC; 
+    border: none;
+    outline: none;
+}
+
+.campo-mensaje{
+    position: relative;
+    margin: 50px 0 0px 100px;
+    bottom: 100px;
+}
+
+#campo-mensaje{
+    border: none;
+    outline: none;
+    border-radius: 10px; 
+}
+
+#campo-mensaje::placeholder{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-family: "Inter", sans-serif;
+    color: #0A3871;
+    font-weight: 200;
+    
+}
+
+.btn{
+    width: 400px;
+    margin: 40px  60px;
+    
+}
+
+.encriptar{
+    position: relative;
+    right: 10px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    background: #0A3871;
+    border: solid 2px #495057;
+    transition: 300ms;
+}
+
+.encriptar:hover{
+    color: #0A3871;
+    background: #F3F5FC;
+}
+
+.encriptar:active{
+    color: #ffffff;
+    background: #0A3871; 
+    transition: 300ms;
+}
+
+.desencriptar{
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border: solid 2px #0A3871;
+    color: #0A3871;
+    background: #F3F5FC;
+    transition: 300ms;
+}
+
+.desencriptar:hover{
+    color: #ffffff;
+    background: #0A3871;
+}
+
+.desencriptar:active{
+    color: #0A3871;
+    background: #F3F5FC;
+    transition: 300ms;
+}
+
+@media screen and (max-width:480px){
+    #campo-mensaje{
+        position: relative;
+        top: 60px;
+    }
+    
+    h1{
+        position: relative;
+        top: 10px;
+        left: 30px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    #campo-mensaje{
+        position: relative;
+        top: 40px;
+    }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <mian class="main">
+        <div class="titulo">
+            <img src="Logo.png" alt="">
+            <h1>Encriptador de texto</h1>
+        </div>
+        <section class="campo-encriptar">
+            <textarea name="" id="campo-encriptado" cols="80" rows="30" class="texto" placeholder="Texto a encriptar"></textarea>
+
+            <h5>Solo letras minúsculas y sin acentos</h5>
+
+            <div class="btn">
+                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+            
+        <section class="campo-mensaje">
+            <textarea name="" id="campo-mensaje" cols="40" rows="30" class="msj" placeholder="ingrese el texto que desea encriptar o desencriptar"></textarea>
+        </section>
+        
+    </mian>
+
+    <script src="script.js"></script>
+</body>
+</html>
